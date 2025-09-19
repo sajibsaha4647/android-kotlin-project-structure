@@ -21,7 +21,14 @@ class SplashFragment : Fragment() {
 
         val view =  inflater.inflate(R.layout.fragment_splash, container, false)
         Handler(Looper.getMainLooper()).postDelayed({
-            findNavController().navigate(R.id.home2)
+
+            val bundle = Bundle().apply {
+                putString("username", "Sajib")
+                putInt("age", 25)
+            }
+//            findNavController().navigate(R.id.secondFragment, bundle)
+
+            findNavController().navigate(R.id.home2, bundle)
         },3000)
 
         return view ;

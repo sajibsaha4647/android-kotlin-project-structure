@@ -1,9 +1,12 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.Kotlin_project_structures_views" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Ensure status bar has a color -->
+<!--        <item name="android:windowDrawsSystemBarBackgrounds">true</item>-->
+        <item name="android:statusBarColor">@color/blue</item> <!-- default color -->
+<!--        //<item name="android:windowTranslucentStatus">false</item>-->
     </style>
+
 
     <style name="Theme.Kotlin_project_structures_views" parent="Base.Theme.Kotlin_project_structures_views" />
 </resources>

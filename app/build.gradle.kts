@@ -3,13 +3,12 @@ plugins {
     alias(libs.plugins.kotlin.android)
 }
 
-
 android {
-    namespace = "com.example.kotlin_project_structures_views"
+    namespace = "com.example.kotlin_project_structure_new"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.kotlin_project_structures_views"
+        applicationId = "com.example.kotlin_project_structure_new"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -17,7 +16,6 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
-
 
     buildFeatures {
         viewBinding = true
@@ -42,7 +40,11 @@ android {
 }
 
 dependencies {
-
+    implementation("com.google.code.gson:gson:2.11.0")
+    // retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+// gson converter
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)

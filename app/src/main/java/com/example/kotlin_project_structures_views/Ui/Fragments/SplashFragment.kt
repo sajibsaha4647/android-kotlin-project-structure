@@ -1,4 +1,4 @@
-package com.example.kotlin_project_structures_views.Ui
+package com.example.kotlin_project_structures_views.Ui.Fragments
 
 import android.os.Bundle
 import android.os.Handler
@@ -8,8 +8,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.example.kotlin_project_structures_views.R
-
+import com.example.kotlin_project_structure_new.R
 
 
 class SplashFragment : Fragment() {

@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "kotlin_project_structures_views"
+rootProject.name = "kotlin_project_structure_new"
 include(":app")
  

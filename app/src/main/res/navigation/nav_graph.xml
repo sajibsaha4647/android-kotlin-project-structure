@@ -5,26 +5,33 @@
     android:id="@+id/nav_graph"
     app:startDestination="@id/splashFragment">
 
-    <fragment
-        android:id="@+id/home2"
-        android:name="com.example.kotlin_project_structures_views.Ui.Home"
-        android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        <fragment
+            android:id="@+id/home2"
+            android:name="com.example.kotlin_project_structures_views.Ui.Fragments.Home"
+            android:label="fragment_home"
+            tools:layout="@layout/fragment_home" />
 
-    <fragment
-        android:id="@+id/aboutFragment"
-        android:name="com.example.kotlin_project_structures_views.Ui.AboutFragment"
-        android:label="fragment_about"
-        tools:layout="@layout/fragment_about" />
-    <fragment
-        android:id="@+id/accountFragment"
-        android:name="com.example.kotlin_project_structures_views.Ui.AccountFragment"
-        android:label="fragment_account"
-        tools:layout="@layout/fragment_account" />
+        <fragment
+            android:id="@+id/aboutFragment"
+            android:name="com.example.kotlin_project_structures_views.Ui.Fragments.AboutFragment"
+            android:label="fragment_about"
+            tools:layout="@layout/fragment_about" />
+        <fragment
+            android:id="@+id/accountFragment"
+            android:name="com.example.kotlin_project_structures_views.Ui.Fragments.AccountFragment"
+            android:label="fragment_account"
+            tools:layout="@layout/fragment_account" />
 
-    <fragment
-        android:id="@+id/splashFragment"
-        android:name="com.example.kotlin_project_structures_views.Ui.SplashFragment"
-        android:label="fragment_splash"
-        tools:layout="@layout/fragment_splash" />
+        <fragment
+            android:id="@+id/splashFragment"
+            android:name="com.example.kotlin_project_structures_views.Ui.Fragments.SplashFragment"
+            android:label="fragment_splash"
+            tools:layout="@layout/fragment_splash" />
+
+        <fragment
+            android:id="@+id/webViewFragment"
+            android:name="com.example.kotlin_project_structures_views.Ui.Fragments.WebViewFragment"
+            android:label="WebViewFragment"
+            tools:layout="@layout/fragment_web_view"
+            />
 </navigation>

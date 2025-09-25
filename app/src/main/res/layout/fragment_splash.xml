@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:gravity="center_vertical"
     android:layout_gravity="center"
-    tools:context=".Ui.SplashFragment">
+    tools:context=".Ui.Fragments.SplashFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

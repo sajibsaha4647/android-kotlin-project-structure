@@ -1,4 +1,4 @@
-package com.example.kotlin_project_structures_views
+package com.example.kotlin_project_structure_new
 
 import org.junit.Test
 
